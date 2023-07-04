@@ -4,9 +4,6 @@ clc
 %--------------------------------------------------------------------------
 addpath(genpath('Airfoils Betzina'))
 addpath(genpath('Airfoils NACA 6 series'))
-addpath(genpath('for GMSH'))
-addpath(genpath('for SU2'))
-
 
 % Blade data
 %------------ n   r/R [-]  beta [deg]  c [in]    t/c [-] ------------------
