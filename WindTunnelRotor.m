@@ -1,10 +1,16 @@
 clear all
 close all
 clc
+%--------------------------------------------------------------------------
+addpath(genpath('Airfoils Betzina'))
+addpath(genpath('Airfoils NACA 6 series'))
+addpath(genpath('for GMSH'))
+addpath(genpath('for SU2'))
+
 
 % Blade data
 %------------ n   r/R [-]  beta [deg]  c [in]    t/c [-] ------------------
-Table1 =     [1   0.1550   26.7000     4.0900    0.4660
+BladeData =  [1   0.1550   26.7000     4.0900    0.4660
               2   0.2060   23.2000     4.0500    0.4070
               3   0.3060   17.8000     4.0200    0.3350
               4   0.4050   11.1000     3.9000    0.2690
