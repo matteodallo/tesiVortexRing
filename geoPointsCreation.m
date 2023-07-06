@@ -5,7 +5,7 @@ addpath(genpath('Airfoils Betzina')) %-------------------------------------
 addpath(genpath('Airfoils NACA 6 series')) %-------------------------------
 
 % Load the appropriate x,y coordinate file and choose h
-airfoil = readmatrix('rR206_refined.dat');
+airfoil = readmatrix('rR756_refined.dat');
 h = 0.0005;
 creation = 1;   % 1 = ACTIVATE THIS FLAG FOR POINT LIST CREATION (otherwise 0 = only plotting)
 
