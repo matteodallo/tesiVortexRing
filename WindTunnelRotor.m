@@ -68,7 +68,7 @@ naca64935_a03 = readmatrix("naca64935_a03.dat");
 % Plots
 %----------------
 figure()
-plot(naca64528_a03(:,1),naca64528_a03(:,2),'c',LineWidth=1.5)
+plot(naca64528_a03(:,1),naca64528_a03(:,2),'k',LineWidth=1.5)
 hold on
 title('XV-15 blade airfoils','interpreter','latex')
 xlabel('x/c [-]','interpreter','latex')
@@ -76,14 +76,15 @@ ylabel('y/c [-]','interpreter','latex')
 xlim([-0.1 1.1])
 axis equal
 plot(naca64935(:,1),naca64935(:,2),'k',LineWidth=1.5)
-plot(naca64935_a03(:,1),naca64935_a03(:,2),'b',LineWidth=1.5)
-% plot(rR155u(:,1),rR155u(:,2),'bo-',rR155l(:,1),rR155l(:,2),'bo-')
-% plot(rR206u(:,1),rR206u(:,2),'co-',rR206l(:,1),rR206l(:,2),'co-')
+% plot(naca64935_a03(:,1),naca64935_a03(:,2),'b',LineWidth=1.5)
+plot(rR155u(:,1),rR155u(:,2),'bo-',rR155l(:,1),rR155l(:,2),'bo-')
+plot(rR206u(:,1),rR206u(:,2),'co-',rR206l(:,1),rR206l(:,2),'co-')
 % plot(rR306u(:,1),rR306u(:,2),'mo-',rR306l(:,1),rR306l(:,2),'mo-')
 % plot(rR405u(:,1),rR405u(:,2),'ro-',rR405l(:,1),rR405l(:,2),'ro-')
 plot(rR906u(:,1),rR906u(:,2),'ro-',rR906l(:,1),rR906l(:,2),'ro-')
 plot(rR756u(:,1),rR756u(:,2),'bo-',rR756l(:,1),rR756l(:,2),'bo-')
-legend('NACA 64-528','NACA 64-935','NACA 64-935 a=0.3')
+legend('NACA 64-528')
+% legend('NACA 64-528','NACA 64-935','NACA 64-935 a=0.3')
 
 
 

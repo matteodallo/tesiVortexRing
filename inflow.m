@@ -7,8 +7,8 @@ clc %----------------------------------------------------------------------
 
 %% XV-15 uniform inflow estimation code
 % Options ----------------------------------------------------------------
-%radial_station = [1 2 3 4 5 6 7 8 9 10 11 12];                             % airfoil radial station(s) (1,2, ... ,12)
-radial_station = 8;
+radial_station = [1 2 3 4 5 6 7 8 9 10 11 12];                             % airfoil radial station(s) (1,2, ... ,12)
+%radial_station = 8;
 T = 200;                                                                    % [N]
 coll = 10;                                                                  % [deg] collective angle
 rpm = 1800;                                                                 % rotor RPM
